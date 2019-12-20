@@ -1,5 +1,5 @@
-document.body.className ="loading";
 
+document.body.className ="loading";
 jQuery(document).ready(function($){
 
     axios.get('http://csc225.mockable.io/movies').then(function(response){
@@ -35,11 +35,11 @@ jQuery(document).ready(function($){
             movieHtml +='<p> Director: ' + movie.director + '</p>';
             movieHtml +='<p> IdNo: '+movie.id+'</p>';
             movieHtml +='<p> Release Yr: '+movie.release+'</p>';
-            movieHtml +='<a href="'+movie.poster +'">[POSTER-LINK]</a>';
-            
+            movieHtml +='<img src="'+movie.poster +'" height="200" width="180"></img>';
+
             $('#current-movie').html(movieHtml);
             console.log(movieHtml);
-
+           
 
         });
        
