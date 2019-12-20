@@ -122,7 +122,6 @@ footer{
     flex-grow: 1;
     align-items: center;
     background: gray;
-    /* padding: 3px; */
 }
 footer p a{
     color: black;
