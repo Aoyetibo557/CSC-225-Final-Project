@@ -28,7 +28,7 @@ jQuery(document).ready(function($){
         var url = 'https://csc225.mockable.io/movies/' + id;
 
 
-        $('#current-movie').html('<img src="loading3.gif">');
+        $('#current-movie').html('<img src="../loading3.gif">');
         axios.get(url).then(function(response){
             var movie=response.data;  
             var movieHtml = ' <p> Title: '+movie.title+'</p>';
