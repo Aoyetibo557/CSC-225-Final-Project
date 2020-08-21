@@ -1,1 +1,1 @@
-https://aoyetibo557.io/CSC-225-Final-Project/index.html
+https://aoyetibo557.github.io/CSC-225-Final-Project/index.html
